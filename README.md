@@ -8,6 +8,7 @@ This project shows how to create a basic Django project and connect the views wi
 
 How to use? 
 
-1. run the command >> python manage.py runserver
+1. Run the command:
+>> python manage.py runserver
 
-2. go to the localhost page in the browser
+2. Go to the localhost page in your browser
