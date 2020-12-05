@@ -1,0 +1,17 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Encyclopedia
+{% endblock %}
+
+{% block body %}
+    <h1>Search results for '{{ text }}'</h1>
+
+    <ul>
+        <!--TODO: Try to change wiki by encyclopedia-->
+        {% for entry in entries %}
+            <li> <a href="{% url 'encyclopedia:title' entry %}"> {{ entry }} </a></li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}
